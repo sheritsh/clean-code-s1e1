@@ -38,7 +38,7 @@
 .input_text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .section__wrapper {
@@ -137,7 +137,7 @@ input,button{
 }
 
 .input_text {
-  width: 226px
+  width: 226px;
 }
 
 .btn__img {
@@ -152,13 +152,13 @@ input,button{
 
 /* Completed */
 #completed-tasks .list__task_content {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .input_text {
-  display: none
+  display: none;
 }
 
 .edit-mode .input_text {
