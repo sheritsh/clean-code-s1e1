@@ -129,6 +129,7 @@ input,button{
 .input_checkbox {
   margin: 0 10px;
 }
+
 .list__task_content {
   padding-left: 10px;
   box-sizing: border-box;
@@ -151,7 +152,8 @@ input,button{
 }
 
 /* Completed */
-#completed-tasks .list__task_content {
+#completed-tasks
+.list__task_content {
   text-decoration: line-through;
   color: #888;
 }
@@ -161,11 +163,13 @@ input,button{
   display: none;
 }
 
-.edit-mode .input_text {
+.edit-mode
+.input_text {
   display: inline-block;
   width: 224px
 }
 
-.edit-mode .list__task_content {
+.edit-mode
+.list__task_content {
   display: none;
 }
